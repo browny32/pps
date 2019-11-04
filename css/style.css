@@ -1,28 +1,27 @@
 body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 100%;
-  background-color: aquamarine;
+  background-color: rgb(203, 248, 233);
   
 }
 .border{
 
 border-width: 100%;
-
-
-
-  
 }
 .heading{
     position: relative;
-    left:15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left:10%;
+    font-weight: bold;
+  
 }
 .subheading{
     position: relative;
-    left:7.5%;
+    left:5.5%;
 }
 .row2{
     position: relative;
-    left:7.5%;
+    left:5.5%;
 }
 #customers {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
