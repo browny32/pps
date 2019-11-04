@@ -5,7 +5,6 @@ body{
   
 }
 .border{
-
 border-width: 100%;
 }
 .heading{
@@ -26,7 +25,7 @@ border-width: 100%;
 #customers {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: solid;
-    width: 100%;
+    width: inherit;
     position: relative;
     border-radius: 20px 20px 20px 20px;
     cursor: pointer;
@@ -37,7 +36,7 @@ border-width: 100%;
   #customers td, #customers th {
     border: 1px solid #ddd;
     border-radius: 20px 20px 20px 20px;
-    padding: 3px;
+    
   
   }
   
@@ -46,13 +45,12 @@ border-width: 100%;
   #customers tr:hover {background-color: #ddd;}
   
   #customers th {
-    padding-top: 12px;
-    padding-bottom: 12px;
+
     border-radius: 20px 20px 20px 20px;
     background-color: none;
     color: black;
   }
   .note{
-      font-size: 25px;
+      font-size: 20px;
       color: black;
   }
