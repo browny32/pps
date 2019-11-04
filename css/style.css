@@ -25,7 +25,7 @@ border-width: 100%;
 #customers {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: solid;
-    width: inherit;
+    width: inheriti;
     position: relative;
     border-radius: 20px 20px 20px 20px;
     cursor: pointer;
@@ -36,7 +36,7 @@ border-width: 100%;
   #customers td, #customers th {
     border: 1px solid #ddd;
     border-radius: 20px 20px 20px 20px;
-    
+    padding: 3px;
   
   }
   
@@ -45,7 +45,8 @@ border-width: 100%;
   #customers tr:hover {background-color: #ddd;}
   
   #customers th {
-
+    padding-top: 12px;
+    padding-bottom: 12px;
     border-radius: 20px 20px 20px 20px;
     background-color: none;
     color: black;
@@ -53,4 +54,8 @@ border-width: 100%;
   .note{
       font-size: 20px;
       color: black;
+  }
+  .Mname{
+    width: 30px;
+    border-radius: 5px;
   }
